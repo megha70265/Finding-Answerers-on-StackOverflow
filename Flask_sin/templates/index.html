@@ -1,0 +1,27 @@
+{%extends 'base.html'%} {%block head%} {%endblock%} {%block body%}
+
+<h1>Form</h1>
+<form action='{{ url_for("index")}}' method="post">
+  <label for="firstname">First Name:</label>
+
+  <input type="number" id="firstname" name="number1" placeholder="firstname" />
+
+  <label for="lastname">Last Name:</label>
+
+  <input type="number" id="lastname" name="number2" placeholder="lastname" />
+
+  <label for="lastname">Last Name:</label>
+
+  <input type="number" id="lastname" name="number3" placeholder="lastname" />
+
+  <label for="lastname">Last Name:</label>
+
+  <input type="number" id="lastname" name="number4" placeholder="lastname" />
+
+  <button type="submit">Login</button>
+</form>
+<br />
+<br />
+{{ prediction_text }}-->
+<p>Hi</p>
+{%endblock%}
